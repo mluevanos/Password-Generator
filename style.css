@@ -1,35 +1,22 @@
 body {
-    background-color:#b48484;
+    background-color: #b48484;
 }
 
-.flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color:#f4a261;
-    margin: 0 auto;
-    max-width:50%;
-    max-height: 50%;
+h1 {
+    text-align: center;
 }
 
-.flex-container > div {
+.container {
     background-color: white;
-    margin-bottom:5%;
-    height: 55%;
-    width: 60%;
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
     text-align: center;
-    border-style: dotted;
-    font-size: 2vw;
-    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-h3 {
-    text-align: center;
-    font-size: 5vw;
-}
 
-h5 {
-    font-size: 2vw;
-    margin-top: 5px;
-}
+
