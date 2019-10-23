@@ -24,6 +24,7 @@ function generate() {
 function allPrompts() {
 
     // create prompts for pw criteria & collecting their response in variable:
+    
     pwLength = prompt("Please choose a password length from 8 - 128");
 
     // ensures input is a number 8-128 & gives validLength a number
